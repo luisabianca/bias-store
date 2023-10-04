@@ -1,7 +1,7 @@
 import React from 'react'
 import './Header.css'
 import SearchBar from '../SearchBar/SearchBar';
-import { BsCartPlus } from 'react-icons/bs';
+import CartButton from '../CartButton/CartButton';
 
 const Header = () => {
   return (
@@ -9,7 +9,7 @@ const Header = () => {
       <div className='container'>
         <p>Bia's Store</p>
         <SearchBar />
-        <button><BsCartPlus/></button>
+        <CartButton />
       </div>
     </header>
   )
