@@ -4,7 +4,10 @@ import "./CartButton.css";
 
 const CartButton = () => {
   return (
-    <button type='button' className='cart__button'><BsCartPlus/></button>
+    <button type='button' className='cart__button'>
+      <BsCartPlus/>
+      <span className='cart-status'>1</span>
+    </button>
   )
 }
 
