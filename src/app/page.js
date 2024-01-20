@@ -3,12 +3,13 @@
 import Header from "@/components/Header/Header";
 import Products from "@/components/Products/Products";
 import "./page.css"
+import Provider from "@/context/Provider";
 
 export default function Home() {
   return (
-    <>
+    <Provider>
       <Header />
       <Products />
-    </>
+    </Provider>
   )
 }
