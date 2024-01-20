@@ -1,7 +1,8 @@
 .loading {
   font-size: 2rem;
   margin: 200px auto 0;
-  animation: spin 1s infinite;
+  animation: spin 1s linear infinite;
+  width: 100%;
 }
 
 @keyframes spin {

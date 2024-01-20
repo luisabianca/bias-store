@@ -18,8 +18,8 @@ const Products = () => {
   }, [])
 
   return (
+    loading ? <Loading /> : 
     <section className='products container'>
-      <Loading />
      {products.map((product) => <ProductCard key={product.id} data={product} />)}
     </section>
   )
