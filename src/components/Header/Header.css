@@ -1,16 +1,15 @@
 .header {
-  background: #fff159;
+  background: rgb(89, 164, 255);
   position: fixed;
   width: 100%;
+  z-index: 1;
 }
 
 p {
   margin: 0;
 }
 
-.container {
-  max-width: 800px;
-  margin: 0 auto;
+.header > div {
   display: flex;
   align-items: center;
   justify-content: space-between;
