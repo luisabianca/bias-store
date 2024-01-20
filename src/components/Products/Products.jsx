@@ -3,7 +3,7 @@ import "./Products.css"
 import fetchProducts from '@/api/fetchProducts';
 import ProductCard from '../ProductCard/ProductCard';
 import Loading from '../Loading/Loading';
-import AppContext from '@/context/appContext';
+import AppContext from '@/context/AppContext';
 
 const Products = () => {
   const {products, setProducts, loading, setLoading} = useContext(AppContext)

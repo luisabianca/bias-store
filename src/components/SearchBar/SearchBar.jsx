@@ -2,7 +2,7 @@ import React, { useContext, useState } from 'react'
 import "./SearchBar.css"
 import {BsSearch} from 'react-icons/bs';
 import fetchProducts from '@/api/fetchProducts';
-import AppContext from '@/context/appContext';
+import AppContext from '@/context/AppContext';
 
 const SearchBar = () => {
   const {setProducts, setLoading} = useContext(AppContext)
@@ -19,7 +19,6 @@ const SearchBar = () => {
 
   return (
     <form className='search-bar' onSubmit={handleSearch}>
-      {name}
       <input
         type="search"
         value={searchValue}
