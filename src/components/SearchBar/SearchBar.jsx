@@ -21,7 +21,7 @@ const SearchBar = () => {
         className='search__input'
         onChange={ ({ target }) => setSearchValue(target.value) }
       />
-      <button type='submit' className='search__button'>
+      <button type='submit' className='search__button'> 
         <BsSearch />
       </button>
     </form>
